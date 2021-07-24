@@ -1,0 +1,47 @@
+.loginform {
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: #4158d0;
+    background-image: linear-gradient(
+        43deg,
+        #4158d0 0%,
+        #c850c0 46%,
+        #ffcc70 100%
+    );
+    background-size: 100%;
+    z-index: -1;
+}
+
+.backcover {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    background-color: white;
+    min-height: 600px;
+    min-width: 350px;
+    z-index: 1;
+    opacity: 0.4;
+    filter: drop-shadow(0 8px 8px darkslategrey);
+    overflow: hidden;
+}
+
+.paper {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    min-height: 600px;
+    min-width: 250px;
+    max-width: 300px;
+    z-index: 10;
+    padding: 10px;
+}
+
+.form-icon {
+    padding-bottom: 5ch;
+    padding-top: 5ch;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
