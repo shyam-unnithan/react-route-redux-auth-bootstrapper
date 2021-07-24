@@ -14,7 +14,7 @@ The current implementation sends the username and password from the login screen
 ## Usage
 
 clone the application using
-git clone https://github.com/shyam-unnithan/react-reoute-redux-auth-bootstrapper.git
+git clone https://github.com/shyam-unnithan/react-route-redux-auth-bootstrapper
 
 `cd react-route-redux-auth-bootstrapper`
 `yarn start`
